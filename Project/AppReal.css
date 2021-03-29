@@ -1,0 +1,140 @@
+/* div {
+    background: aqua
+} */
+body, ul, li, h2, h1, a {
+  margin: 0;
+  padding: 0;
+  font-family:  arial;
+}
+
+header {
+  background-color: rgb(245, 223, 223);
+  padding: 2px;
+  color:black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  /* animation: transparent ease; */
+  /* left: 100px; */
+  top: 0;
+  left: 0;
+  text-align: center;
+  
+}
+header h1{
+  color:black;
+  border: 8px solid black;
+  padding: 6px 12px ;
+  display: inline-block;
+  border-radius: 36px ;
+}
+.Worldbanner{
+  position: relative;
+  /* bottom: 100px; */
+}
+.Worldbanner img {
+  max-width: 100%;
+  width: 1920px;
+  
+  height: 500px;
+
+}
+.Worldbanner .WelcomeDiv {
+  Position: absolute;
+  color: white;
+  left: 0;
+  top: 30%;
+  text-align: center;
+  /* background-color: rgb(114, 122, 2); */
+}
+.Worldbanner h2{
+  font-size: 80px;
+}
+.Worldbanner h2 span{
+  font-size: 1.5em;
+}
+
+nav{
+  background-color: #F4F4F4;
+  padding: 20px;
+  position:  sticky;
+  top: 60px;
+  /* width: 100%; */
+ 
+
+}
+nav ul{
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0% auto;
+}
+nav li{
+  width: 25%;
+  display: inline-block;
+  font-size: 25px;
+}
+nav li a{
+  text-decoration: none ;
+  color: #4b4b4b;
+}
+nav li a.first-step{
+  color: rgb(0, 17, 255);
+}
+main{
+  max-width: 100%;
+  width: 1000px;
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+article h2 {
+  color: red ;
+  font-size: 50px;
+}
+article p {
+  line-height: 2em;
+  color: '#4b4b4b';
+}
+.imageScrol{
+  text-align: center;
+  margin: 80px 0;
+  white-space: nowrap;
+}
+.imageScrol li {
+  display: inline-block;
+  width: 40%;
+  margin: 20px 5%;
+}
+.imageScrol li img{
+  max-width: 100%;
+  width: 200px;
+  height: 120px;
+  
+}
+.emailMe{
+  background: #F4F4F4;;
+  text-align: center;
+  padding: 60px 20px;
+  color: #4b4b4b;
+}
+.emailMe h2{
+  font-size: 36px;
+
+}
+form input{
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 28px;
+  border: solid white;
+  width:400px;
+
+}
+
+footer{
+  background: rgb(245, 223, 223);
+  color: #4b4b4b;
+  padding: 10px;
+  text-align: center;
+
+}
