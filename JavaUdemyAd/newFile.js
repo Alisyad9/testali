@@ -10,32 +10,29 @@
 // function numberToString(num) {
 //   let newNumber=num.toString()
 //   return newNumber;
-    
+
 //   }
-  // console.log(numberToString(123));
+// console.log(numberToString(123));
 
 //   const  numberToString = num =>  num.toString;
 // numberToString('123')
 //   console.log(numberToString);
 
-//   function repeatStr (n, s) {
-//     if (n<1) {
-//       return '';
-//     } else {
-//       return s +repeatStr(n-1, s);
-      
-//     }
-    
-//   }
-// console.log(repeatStr(3,' 123'));
+function repeatStr(n, s) {
+  if (n < 1) {
+    return '';
+  } else {
+    return s + repeatStr(n - 1, s);
+  }
+}
+console.log(repeatStr(3, ' 123'));
 
 // function repeat(n, s) {
 //  var newString="";
 //  for (var i=0; i<n; i++){
 //    console.log(i+' '+s);
 // //  newString=s+newString;
-  
-   
+
 //  }
 //  return newString;
 // }
@@ -49,7 +46,6 @@
 //   if (p1===p2) return 'draw'
 
 // };
-
 
 // console.log(rps('dog', 'dog'));
 
@@ -75,17 +71,10 @@
 //   return console.log('Player 2 Won!');
 // }else if (p1===p2){return  console.log('Draw') }
 
-
-
- 
- 
-  
- 
 // };
 // rps('rock','scissors');
 // rps('scissors','paper');
 // rps('pap','pap');
-
 
 //  def rps(p1, p2):
 //     if p1 == 'rock' and p2 == 'scissors':
@@ -110,10 +99,10 @@
 //     rock: 'scissors',
 //     paper: 'rock',
 //     scissors: 'paper'
-    
+
 //   };
 //   if (rules[p1] === p2) {
-   
+
 //     return `Player 1 won!`;
 //   } else {
 //     return `Player 2 won!`;
@@ -126,37 +115,31 @@
 // rockPaperScissors('paper', 'paper');    // Draw!
 
 // function getVowels(str) {
-  
+
 //   return  str.match(/[aeiou]/gi).length;
 // }
 
 function recrusion(n) {
-  if (n===0) {
+  if (n === 0) {
     return [];
-  }else {
-     
-    return n + recrusion(n-1);
-
-
+  } else {
+    return n + recrusion(n - 1);
   }
 }
-let lop= ['rock','paper','scissors']
+let lop = ['rock', 'paper', 'scissors'];
 
-function  loopName(lop) {
-lop.forEach(element => {
+function loopName(lop) {
+  lop.forEach((element) => {
     return element;
   });
-  
 }
 loopName(['dog1', 'dog2', 'paper']);
 
-let objectNew= {
-  name:'john',
-  age:32,
-  favourite:'aziza'
-}
-function objectLop(obs) {
-  
-}
+let objectNew = {
+  name: 'john',
+  age: 32,
+  favourite: 'aziza',
+};
+function objectLop(obs) {}
 
 console.log(recrusion(4));
