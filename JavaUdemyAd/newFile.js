@@ -135,11 +135,11 @@ function loopName(lop) {
 }
 loopName(['dog1', 'dog2', 'paper']);
 
-let objectNew = {
-  name: 'john',
-  age: 32,
-  favourite: 'aziza',
-};
-function objectLop(obs) {}
+// let objectNew = {
+//   name: 'john',
+//   age: 32,
+//   favourite: 'aziza',
+// };
+// function objectLop(obs) {}
 
-console.log(recrusion(4));
+// console.log(recrusion(4));
